@@ -1,0 +1,13 @@
+Use the user's Pixi environment at `/home/mt/mpixi` by default for Python commands, scripts, and tests. Prefer `/home/mt/mpixi/.pixi/envs/default/bin/python` for Python execution, or `pixi run --manifest-path /home/mt/mpixi/pixi.toml <command>` when environment activation is needed. Use a different environment when the user explicitly requests it or the project requires it.
+
+
+I want you to process Ni.tiff into 1D profile and perform Rietveld refinement. You can study the example jupyter notebooks in this GitHub repo https://github.com/MehmetTopsakal/easyXRD_examples . You can use the _calibration.poni for pyFAI integration,  _mask.edf for bad pixel masking, and Ni.cif file for phase matching. You can read GSAS-II instrument parameters from _instrument_parameters.gpx . For all these tasks, you can use easyxrd library as in the example notebooks that came with easyXRD_examples package. Document your steps in a jupyter notebook and save here.
+
+
+save the walkthrogh.md here also
+
+
+how much token did you spend on this taks?
+
+
+Expprt this response as a markdown to here
