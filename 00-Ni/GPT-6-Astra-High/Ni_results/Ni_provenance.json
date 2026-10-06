@@ -1,0 +1,39 @@
+{
+  "inputs_sha256": {
+    "Ni.tiff": "9b2aacb01a8cfe10a9d5b38d55eaf8d2a6ee58b0ceae011195c1571fb005b5ec",
+    "_calibration.poni": "914d5184afb8b0121dd17c10fc9d012c27ba8145d42d2b8c027ebd832db05b1b",
+    "_mask.edf": "9bbf61e373c646536e7f3465c3b90ce55d22bfa6989c7710c33034e1b6a0b342",
+    "Ni.cif": "2f55e782df979f7bb80e815c1d57dd7201b3659dea489296095e5a2ab4ee4642",
+    "_instrument_parameters.gpx": "38a74c6cafc7a306c4d6c95ddd650b59512be3e750ba7ce713ac1037810279cf"
+  },
+  "versions": {
+    "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+    "executable": "/home/mt/mpixi/.pixi/envs/default/bin/python",
+    "easyxrd": "2026.9.20",
+    "pyFAI": "2026.5.0",
+    "fabio": "2026.6.0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pymatgen": "2026.9.24",
+    "GSAS-II": "2.0.0",
+    "GSASII_module": "/home/mt/mpixi/.pixi/envs/default/lib/python3.14/site-packages/GSASII/GSASIIscriptable.py"
+  },
+  "examples_repository": "https://github.com/MehmetTopsakal/easyXRD_examples",
+  "examples_commit": "97dec4ef8260006ebe8a00b78da2bbf55d9cd5ff",
+  "integration": {
+    "q_range": [
+      0.5,
+      10.4
+    ],
+    "delta_q": 0.004,
+    "method": [
+      "bbox",
+      "csr",
+      "cython"
+    ],
+    "solid_angle": true,
+    "polarization_factor": null,
+    "median_filter": null
+  },
+  "gsas_working_directory": "Ni_results/gsas_work/1791324940_GIFIU6V.gsastmp"
+}

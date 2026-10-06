@@ -1,0 +1,30 @@
+{
+  "phase": "Ni",
+  "space_group": "F m -3 m",
+  "method": "Rietveld; LeBail=False",
+  "wavelength_A": 0.1799,
+  "fit_q_range_A^-1": [
+    2.5,
+    9.5
+  ],
+  "n_fit_points": 1750,
+  "a_A": 3.5226778694595997,
+  "a_formal_esd_A": 3.1645846933038945e-05,
+  "volume_A3": 43.71382336605956,
+  "Rwp_percent": 6.223070297405453,
+  "Rp_percent": 4.795836290163819,
+  "optimizer_Rwp_percent": 6.2220268051683565,
+  "GOF_relative_weights": 0.30959889839446764,
+  "n_refined_parameters": 15,
+  "Uiso_A2": 0.0,
+  "unconstrained_trial_Uiso_A2": -0.001346513591594376,
+  "final_max_shift_over_esd": 0.0,
+  "weighting": "w=1/max(I,1); approximate relative intensity weights, not calibrated counting errors",
+  "limitations": [
+    "Uiso is at its zero boundary if the unconstrained trial is negative; not a thermal measurement.",
+    "Fitted profile coefficients include total broadening; size and strain are not independently determined.",
+    "Formal errors exclude calibration and other systematic uncertainties; PONI was calibrated with Ni.",
+    "Single-phase fit supports major-phase identification, not a quantitative purity claim.",
+    "Residual peak shape/intensity mismatch and strong profile-parameter correlations remain."
+  ]
+}

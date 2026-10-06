@@ -1,0 +1,189 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Jacobian
+ Minimum delta-M/M for convergence: 1e-06
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: Ni
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Ni        12.83760   7.29200   4.44380   2.38000   3.87850   0.25650  12.17630  66.34210   1.03410
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+ Ni         0.23130   1.06570   1.82290   2.26090   1.18830   0.12100   1.26910   5.68700  27.09170  83.02850
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Ni      Nat. Abund.     58.700    1.030
+
+ Space Group: F m -3 m
+ The lattice is centrosymmetric F-centered cubic
+ The Laue symmetry is m3m
+ The lattice point group is m3m
+ Multiplicity of a general site is 192
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 0,1/2,1/2; 1/2,0,1/2; 1/2,1/2,0)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)     Z,     X,     Y 
+ ( 3)     Y,     Z,     X 
+ ( 4)     X,     Y,    -Z 
+ ( 5)    -Z,     X,     Y 
+ ( 6)     Y,    -Z,     X 
+ ( 7)    -Z,     X,    -Y 
+ ( 8)    -Y,    -Z,     X 
+ ( 9)     Y,    -Z,    -X 
+ (10)    -X,     Y,    -Z 
+ (11)    -Z,    -X,     Y 
+ (12)     X,    -Y,    -Z 
+ (13)     Y,     X,     Z 
+ (14)     Z,     Y,     X 
+ (15)     X,     Z,     Y 
+ (16)     Y,     X,    -Z 
+ (17)    -Z,     Y,     X 
+ (18)     X,    -Z,     Y 
+ (19)    -Z,     Y,    -X 
+ (20)    -X,    -Z,     Y 
+ (21)     X,    -Z,    -Y 
+ (22)    -Y,     X,    -Z 
+ (23)    -Z,    -Y,     X 
+ (24)     Y,    -X,    -Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Ni0     Ni          0.00000   0.00000   0.00000   1.000    m3m    4    I 0.00000                                                
+
+ Unit cell: a = 3.52268 b = 3.52268 c = 3.52268 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 43.714 Refine? True
+
+ Phase: Ni in histogram: PWDR data.xy
+=======================================================================================================================================
+ Phase fraction  :          1 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:      10.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:         0.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11          eA
+ values:           0           0
+ refine:       False       False
+
+ Histogram: PWDR data.xy histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Debye-Scherrer
+ Histogram limits:     4.11 deg to    15.63 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale    Absorption     DisplaceX     DisplaceY
+ value :        0.0164        0.0000        0.0000        0.0000
+ refine:          True         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth         Lam    Polariz.        SH/L           U           V           W           X           Y
+ value :    0.000000    0.179900    0.000000    0.005541  431.493223  -31.827261    2.255562    1.205033   -5.961603
+ refine:                   False       False       False        True        True        True        True        True
+
+ name  :           Z        Zero
+ value :    0.040769    0.000000
+ refine:       False       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:     12.316    -0.663    -0.269     0.006     0.144    -0.136    -0.178     0.293
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 6 No. of observations: 1750 No. of parameters: 15 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    0.099s,    0.033s/cycle, for 3 cycles
+ wR =    6.22%, chi**2 =      166.302, GOF =   0.31
+----------------------------------------------------------------------------------------------------------------------------------
+Parameters generated by constraints
+
+ name  :          0::A0
+ value :        0.08058
+ sig   :        0.00000 
+
+ Phases:
+ Result for phase: Ni
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.080584987    0.080584987    0.080584987    0.000000000    0.000000000    0.000000000
+  esds  :    0.000001448                                                                           
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:    3.522678    3.522678    3.522678     90.0000     90.0000     90.0000      43.714
+  esds  :    0.000032                                                                   0.001
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Ni0     Ni:
+ values:   0.00000   0.00000   0.00000   1.000 0.00000
+ sig   :                                               
+
+ Density: 8.9193 g/cm**3
+
+ Phase: Ni in histogram: PWDR data.xy
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 3.35%, 7.33% on 11 reflections
+ Durbin-Watson statistic = 0.067
+ Bragg intensity sum = 1.39e+04
+
+ Histogram: PWDR data.xy histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 6.22% on 1750 observations in this histogram
+ Other residuals: R = 4.80%, R-bkg = 6.92%, wR-bkg = 6.22% wRmin = 20.18%
+ Instrument type: Debye-Scherrer
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:       Ni
+ f'     :    0.024
+ f"     :    0.079
+
+ Sample Parameters:
+ names :         Scale    Absorption     DisplaceX     DisplaceY
+ values:        0.0164        0.0000        0.0000        0.0000
+ sig   :        0.0000                                          
+
+ Instrument Parameters:
+ names :         Lam    Polariz.        SH/L           U           V           W           X           Y           Z
+ value :    0.179900    0.000000    0.005541  431.493223  -31.827261    2.255562    1.205033   -5.961603    0.040769
+ sig   :                                       28.809032    4.146010    0.139971    0.045359    0.772359            
+
+ Instrument Parameters:
+ names :        Zero
+ value :    0.000000
+ sig   :            
+
+ Background function: chebyschev-1
+ value :      12.32   -0.6628   -0.2689   0.00615    0.1437   -0.1364   -0.1777     0.293
+ sig   :    0.03674   0.06108   0.05531   0.05421   0.05214   0.05276   0.04696   0.04528
+ Background sums: empirical 2.17e+04, Debye 0, peaks 0, Total 2.17e+04
