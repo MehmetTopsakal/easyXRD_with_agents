@@ -1,0 +1,14 @@
+# Nota: C-Order, 1 refers to the Y axis, 2 to the X axis
+# Calibration done on Tue Sep 22 13:05:47 2026
+poni_version: 2.1
+Detector: Dexela2923
+Detector_config: {"pixel1": 7.5e-05, "pixel2": 7.5e-05, "orientation": 3}
+Distance: 0.5994971710951388
+Poni1: 0.14065698666183532
+Poni2: 0.09934596997307191
+Rot1: -0.02386657077923864
+Rot2: 0.007321294812142471
+Rot3: 0.0
+Wavelength: 1.799e-11
+# Calibrant: Ni
+# Image: fabio:///home/mt/repos/agent-work/assignments/Ni/20260731-131854_81DFC0_count_Ni-75-150_moving.tiff
